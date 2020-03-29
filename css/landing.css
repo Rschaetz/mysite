@@ -1,0 +1,48 @@
+.header {
+  padding: 20px 70px;
+}
+
+.header .logo {
+  max-width: 150px;
+  max-height: 35px;
+  
+}
+
+.main-section {
+  background-image: url("../images/hero_image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.main-wrapper{
+  background-color: #ffffff;
+  padding: 40px;
+  margin: 20px;
+}
+
+.title, .title_1 {
+  font-size: 40px;
+}
+
+.title_1{
+  margin-bottom: 20px;
+}
+
+.title_2 {
+  color: #f66e5e;
+}
+.subtitle {
+  color: rgba(0,0,0,0.34);
+  font-size: 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.title-content {
+  color: #7a7a7a;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+}

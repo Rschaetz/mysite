@@ -19,8 +19,6 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,500,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fanwood+Text&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
     <!-- <div class="header">
@@ -32,12 +30,12 @@
         <img src="./images/logo.png" alt="" class="logo">
           <ul class="nav-items">
             <li class="nav-item">
-              <a href="" class="item-link">
+              <a href="index.html" class="item">
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a href="categories.html" class="item">
+              <a href="" class="item-link">
                 Categories
               </a>
             </li>
@@ -47,7 +45,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="" class="item">
+              <a href="contact.html" class="item">
                 Contact
               </a>
             </li>
@@ -78,48 +76,18 @@
       </div>
     </section>
 
-    <!-- Delete  -->
-
-    <section class="main-section">
-      <div class="main-wrapper">
-        <div class="title">Hello</div>
-        <div class="title_1">I'm
-          <span class="title_2"> Rebecca</span>
-        </div>
-        
-        <div class="subtitle">
-          Get the Latest News from Pumbaa
-        </div>
-        <div class="title-content">
-          Rebecca is a an amazing Pumbaa writer that writes only about Pumbaa and out of love for writing
-        </div>
-      </div>
-    </section>
-
-    <section class="mid-section">
-      <div class="img-wrapper">
-        <img src="./images/branch.png" alt="" class="branch-img">
-      </div>
-      
-      <div class="mid-title">
-				"Every day is a journey and the journey itself is home."
-      </div>
-    </section>
-
     <script>
-     $(function () {
-      $(document).scroll(function () {
-        var $nav = $(".main-navigation");
-        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-        if($(this).scrollTop() > $nav.height()) {
-          $(".item-link").css("color", '#484848')
-          $(".item").css("color", '#484848')
-        } else {
-          $(".item-link").css("color", 'white')
-          $(".item").css("color", 'white')
-        }
-      });
-    });
-    </script>
+      $(function () {
+       $(document).scroll(function () {
+         var $nav = $(".main-navigation");
+         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+         if($(this).scrollTop() > $nav.height()) {
+           $(".item-link").css("color", '#484848')
+         } else {
+           $(".item-link").css("color", 'white')
+         }
+       });
+     });
+     </script>
   </body>
 </html>

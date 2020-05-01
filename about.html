@@ -19,6 +19,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,500,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fanwood+Text&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
   </head>
   <body>
     <section class="main-section">
@@ -36,7 +38,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="" class="item-link">
+              <a href="" class="item current-item">
                 About
               </a>
             </li>
@@ -72,18 +74,5 @@
       </div>
     </section>
 
-    <script>
-      $(function () {
-       $(document).scroll(function () {
-         var $nav = $(".main-navigation");
-         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-         if($(this).scrollTop() > $nav.height()) {
-           $(".item-link").css("color", '#484848')
-         } else {
-           $(".item-link").css("color", 'white')
-         }
-       });
-     });
-     </script>
   </body>
 </html>

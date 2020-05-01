@@ -19,14 +19,13 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,500,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fanwood+Text&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
   </head>
   <body>
-    <!-- <div class="header">
-      <img src="./images/logo.png" alt="" class="logo">
-    </div> -->
 
-    <section class="main-section">
-      <div class="main-navigation flex-box content-space-between items-center">
+
+    <div class="main-navigation flex-box content-space-between items-center">
         <img src="./images/logo.png" alt="" class="logo">
           <ul class="nav-items">
             <li class="nav-item">
@@ -35,7 +34,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="" class="item-link">
+              <a href="" class="item current-item">
                 Categories
               </a>
             </li>
@@ -51,43 +50,5 @@
             </li>
           </ul>
       </div>
-      <div class="main-wrapper">
-        <div class="title">Hello</div>
-        <div class="title_1">I'm
-          <span class="title_2"> Rebecca</span>
-        </div>
-        
-        <div class="subtitle">
-          Get the Latest News from Pumbaa
-        </div>
-        <div class="title-content">
-          Rebecca is a an amazing Pumbaa writer that writes only about Pumbaa and out of love for writing
-        </div>
-      </div>
-    </section>
-
-    <section class="mid-section">
-      <div class="img-wrapper">
-        <img src="./images/branch.png" alt="" class="branch-img">
-      </div>
-      
-      <div class="mid-title">
-				"Every day is a journey and the journey itself is home."
-      </div>
-    </section>
-
-    <script>
-      $(function () {
-       $(document).scroll(function () {
-         var $nav = $(".main-navigation");
-         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-         if($(this).scrollTop() > $nav.height()) {
-           $(".item-link").css("color", '#484848')
-         } else {
-           $(".item-link").css("color", 'white')
-         }
-       });
-     });
-     </script>
   </body>
 </html>

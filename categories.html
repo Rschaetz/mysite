@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./css/landing.css" type="text/css">
     <link rel="stylesheet" href="./css/main-navigation.css" type="text/css">
     <link rel="stylesheet" href="./css/flex.css" type="text/css">
+    <link rel="stylesheet" href="./css/category.css" type="text/css">
+
 
     <link href="https://fonts.googleapis.com/css?family=Lora:400,500,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fanwood+Text&display=swap" rel="stylesheet">
@@ -25,30 +27,105 @@
   <body>
 
 
-    <div class="main-navigation flex-box content-space-between items-center">
-        <img src="./images/logo.png" alt="" class="logo">
-          <ul class="nav-items">
-            <li class="nav-item">
-              <a href="index.html" class="item">
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="item current-item">
-                Categories
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="about.html" class="item">
-                About
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="contact.html" class="item">
-                Contact
-              </a>
-            </li>
-          </ul>
+    <div class="main-navigation flex-box content-space-between items-center flex-wrap" style="background-color: white;">
+      <img src="./images/logo.png" alt="" class="logo">
+        <ul class="nav-items">
+          <li class="nav-item">
+            <a href="index.html" class="item">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="item current-item">
+              Categories
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="item">
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="item">
+              Contact
+            </a>
+          </li>
+        </ul>
+    </div>
+    <div style="padding-top: 100px;"></div>
+
+    <section class="cat-image-wrapper flex-column content-center flex-box">
+
+      <div class="titles-wrapper items-start">
+        <div class="cat-title">Book Shelves</div>
+        <div class="cat-title">Our Categories</div>
       </div>
+    </section>
+
+    <section class="category">
+      <div class="category-wrapper cat">
+        <div class="category-title">Imaginary Worlds</div>
+        <div class="category-subtitle">Unvisited Places Await</div>
+        <div class="category-content">
+          It is generally accepted that, to be science fiction,
+          a story must have elements of science. Fantasy, on the other hand,
+          rarely utilizes science, relying instead on magic,
+          mythological and neo-mythological beings and devices,
+          and outright invention for conflict and setting.
+        </div>
+      </div>
+      <div class="category-image"></div>
+    </section>
+
+    <section class="category category-reversed">
+      <div class="category-wrapper reversed-cat">
+        <div class="category-title">Short Stories</div>
+        <div class="category-subtitle">With a Little Piece of Moral at the End</div>
+        <div class="category-content">
+          A fable is a story intended to illustrate a moral.
+          It is generally accepted that, to be science fiction,
+          a story must have elements of science. Fantasy,
+          on the other hand, rarely utilizes science, relying
+          instead on magic, mythological and neo-mythological
+          beings and devices, and outright invention for
+          conflict and setting.
+        </div>
+      </div>
+      <div class="category-image"></div>
+    </section>
+
+    <section class="category">
+      <div class="category-wrapper cat">
+        <div class="category-title">Beyond the Horizon</div>
+        <div class="category-subtitle">Let's Travel Together</div>
+        <div class="category-content">
+          A genre of fiction in which action is the key element,
+          overshadowing characters, theme and setting.
+          The conflict in an adventure story is often
+          man against nature. A secondary plot that
+          reinforces this kind of conflict is sometimes
+          included.
+        </div>
+      </div>
+      <div class="category-image"></div>
+    </section>
+
+    <section class="category category-reversed">
+      <div class="category-wrapper reversed-cat">
+        <div class="category-title">Stories in Pictures</div>
+        <div class="category-subtitle">For Kids and Adults</div>
+        <div class="category-content">
+          A graphic novel is a book made up of comics
+          content. Although the word “novel” normally
+          refers to long fictional works, the term
+          “graphic novel” is applied broadly and
+          includes fiction, non-fiction, and anthologized work.
+          It is distinguished from the term “comic book”,
+          which is generally used for comics periodicals.
+        </div>
+      </div>
+      <div class="category-image"></div>
+    </section>
+
   </body>
 </html>

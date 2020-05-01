@@ -1,0 +1,115 @@
+.cat-image-wrapper {
+  background-image: url('./../images/cat.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 140px;
+  
+}
+
+.cat-image-wrapper {
+  min-height: 60vh;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.cat-title{
+  font-size: 40px;
+  font-family: "Fanwood Text";
+  color: white;
+  font-weight: 900;
+}
+
+.category{
+  padding: 30px;
+  position: relative;
+}
+.category-wrapper{
+  margin-bottom: 20px;
+}
+
+.category-title {
+  font-size: 28px;
+  font-family: "Fanwood Text";
+  margin-bottom: 20px;
+}
+
+.category-subtitle {
+  font-family: "Quicksand", Sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.category-content {
+  color: #7a7a7a;
+  font-family: "Quicksand";
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
+.category-image{
+  background-image: url('./../images/fantasy.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 45vh
+}
+
+@media only screen and (min-width: 768px) {
+  .cat-title {
+    font-size: 54px;
+  }
+  .category, .category-reversed{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .category-reversed {
+    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    -o-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    -moz-flex-direction: row-reverse;
+  }
+  .category-wrapper {
+    width: 100%
+  }
+  .category-title{
+    font-size: 36px;
+  }
+  .category-subtitle{
+    font-size: 18px;
+  }
+  .category-content {
+    font-size: 20px;
+  }
+  .category-image{
+    height: 50vh
+  }
+  .reversed-cat {
+    margin-left: 20px
+  }
+  .cat {
+    margin-right: 20px
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .titles-wrapper {
+    max-width: 1140px;
+    margin-left: 10%
+  }
+  .category{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cat-image-wrapper {
+    padding: 0 60px 0px 60px;
+  }
+}

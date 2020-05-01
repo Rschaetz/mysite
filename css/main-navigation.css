@@ -4,6 +4,7 @@
   position: fixed;
   top:0;
   padding: 10px 100px;
+  z-index:1
 }
 
 .main-navigation.scrolled {

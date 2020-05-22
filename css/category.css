@@ -24,14 +24,27 @@
   padding: 30px;
   position: relative;
 }
+.subcategory{
+  text-align: center;
+  font-size: 40px;
+  font-family: "Fanwood Text";
+  margin-bottom: 28px;
+}
+
+
 .category-wrapper{
   margin-bottom: 20px;
 }
 
 .category-title {
+  color: black;
   font-size: 28px;
   font-family: "Fanwood Text";
   margin-bottom: 20px;
+}
+
+.category-title:hover {
+  color: #f66e5e;
 }
 
 .category-subtitle {

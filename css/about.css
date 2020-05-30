@@ -7,3 +7,9 @@
   border-radius: 1000px;
   height: 300px;
 }
+
+.statement-wrapper{
+  margin: 0 auto;
+  max-width: 800px;
+}
+.bio-statement {}

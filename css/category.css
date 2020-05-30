@@ -19,6 +19,12 @@
   color: white;
   font-weight: 900;
 }
+.cat-subtitle{
+  font-size: 30px;
+  font-family: "Fanwood Text";
+  color: white;
+  font-weight: 700;
+}
 
 .category{
   padding: 30px;

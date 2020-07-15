@@ -1,11 +1,10 @@
 .cat-image-wrapper {
-  background-image: url('./../images/cat.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 140px;
-  
 }
+
 
 .cat-image-wrapper {
   min-height: 60vh;
@@ -68,13 +67,56 @@
 }
 
 .category-image{
-  background-image: url('./../images/fantasy.jpg');
+  /* background-image: url('./../images/fantasy.jpg'); */
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
   width: 100%;
-  height: 45vh
+  height: 45vh 
 }
+
+.overview {
+  background-image: url('./../images/overview.jpg');
+}
+
+.stories {
+  background-image: url('./../images/waterfall-house.jpg');
+}
+
+.fantasy {
+  background-image: url('./../images/old-dragon.jpg');
+}
+
+.ship {
+  background-image: url('./../images/ship.jpg');
+}
+
+.tree-bridge {
+  background-image: url('./../images/tree-bridge.jpg');
+}
+
+.crime-night {
+  background-image: url('./../images/crime-night.jpg');
+}
+
+.comedy {
+  background-image: url('./../images/cooking.png');
+}
+
+.drama {
+  background-image: url('./../images/sunset-dream.jpg');
+}
+
+.lstory {
+  background-image: url('./../images/lstory.jpeg');
+}
+
+
 
 @media only screen and (min-width: 768px) {
   .cat-title {

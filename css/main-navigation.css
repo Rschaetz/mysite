@@ -45,6 +45,10 @@
     width: 60%;
     transition: .2s;
   }
+
+  .item-alt {
+    color: white;
+  }
   
   .item {
     color: #484848;

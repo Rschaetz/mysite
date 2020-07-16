@@ -74,7 +74,13 @@
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
+  -webkit-background-position: center;
+  -moz-background-position: center;
+  -o-background-position: center;
   background-repeat: no-repeat;
+  -webkit-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
   overflow: hidden;
   width: 100%;
   height: 45vh 
@@ -86,6 +92,10 @@
 
 .stories {
   background-image: url('./../images/waterfall-house.jpg');
+}
+
+.stories-main {
+  background-image: url('./../images/waterfall-house2.jpg');
 }
 
 .fantasy {
@@ -116,6 +126,29 @@
   background-image: url('./../images/lstory.jpeg');
 }
 
+.poems {
+  background-image: url('./../images/village-square.jpg');
+}
+
+.speech-top {
+  background-image: url('./../images/little-dragon.jpg');
+}
+
+.castle-path {
+  background-image: url('./../images/castle-path.jpg');
+}
+
+.speaches {
+  background-image: url('./../images/castle2.jpg');
+}
+
+.speaches-alt {
+  background-image: url('./../images/horizon.jpg');
+}
+
+.contact {
+  background-image: url('./../images/explorers.jpg');
+}
 
 
 @media only screen and (min-width: 768px) {
